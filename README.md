@@ -7,11 +7,11 @@ In this application user can choose the category or can create the catregory and
 
 App that include:-
 
-                                             Material Designing.                                                                                                                    Http Request(Volley/Retrofit).
-                                               SuperRecyclerView.
-                                                 Material Dialog.
-                                              Action Process Button.
-                                            Sqlite Database(offline).
-                                                   Rest/Soap Api.
-                                          Native Ad(Facebook Native Ad).
-                                                      JSON.
+    Material Designing                                                                                                                         Http Request(Volley/Retrofit).
+    SuperRecyclerView.
+    Material Dialog.
+    Action Process Button.
+    Sqlite Database(offline).
+    Rest/Soap Api.
+    Native Ad(Facebook Native Ad).
+    JSON.
