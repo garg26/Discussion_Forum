@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Forum</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_name1">Name is empty</string>
+    <string name="error_name2">At least 3 character</string>
+    <string name="error_email">Enter a valid email address</string>
+    <string name="error_password1">Password is empty</string>
+    <string name="error_password2">At least 3 character</string>
+    <string name="write_question">Write Question</string>
+    <string name="facebook_app_id">874118236054189</string>
+    <string name="category">Topic</string>
+    <string name="topic">Name</string>
+    <string name="description">Description (Optional)*</string>
+    <string name="question">Question</string>
+    <string name="button_type">Button Type</string>
+    <string name="circle_button">Circle Button</string>
+    <string name="hamburger_button">Hamburger Button</string>
+
+    <string name="button_number">Button Number</string>
+
+    <string name="boom_type">Boom Type</string>
+
+    <string name="place_type">Place Type</string>
+
+    <string name="animation_duration">Animation Duration</string>
+    <string name="animation_start_delay">Animation Start Delay</string>
+    <string name="animation_rotation_degree">Animation Rotation Degree</string>
+    <string name="auto_dismiss">Auto Dismiss</string>
+
+    <string name="show_order_type">Show Order</string>
+    <string name="show_order_type_default">Default</string>
+    <string name="show_order_type_reverse">Reverse</string>
+    <string name="show_order_type_random">Random</string>
+
+    <string name="hide_order_type">Hide Order</string>
+    <string name="hide_order_type_default">Default</string>
+    <string name="hide_order_type_reverse">Reverse</string>
+    <string name="hide_order_type_random">Random</string>
+
+    <string name="animation_listener">Animation Listener</string>
+
+    <string name="click_effect">Click Effect</string>
+    <string name="click_effect_ripple">Ripple</string>
+    <string name="click_effect_normal">Normal</string>
+
+    <string name="examples">Examples</string>
+    <string name="easy_example">Easy Example</string>
+    <string name="list_view_example">ListView Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="builder_example">Builder Example</string>
+
+    <string name="easy_example_text">This is an easy use of BoomMenuButton.</string>
+    <string name="share_example_text">This is a share example of BoomMenuButton.</string>
+
+    <string name="share_line_width">Line Width</string>
+    <string name="signup">SignUp</string>
+    <string name="Success">Success</string>
+    <string name="Loading">Loading</string>
+    <string name="showPassword">Show password</string>
+    <string name="logout">Logout</string>
+    <string name="signin">SignIn</string>
+
+</resources>

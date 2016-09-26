@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kartikeya_pc.forum.Questions">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:text="QUESTION"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold" />
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            card_view:cardBackgroundColor="#fff"
+            android:id="@+id/view6"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="8dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="200dp"
+                android:layout_width="320dp"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="#000000"
+                android:id="@+id/view2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/question"
+                    android:hint="Write Question"
+                    android:textColor="#000000"
+                    android:ems="@android:integer/config_shortAnimTime"
+                    android:gravity="top|center_vertical"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideOverlay"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:text="ADD QUESTION"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:v_styleId="@color/colorPrimary"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
